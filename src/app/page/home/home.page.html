@@ -1,0 +1,20 @@
+<ion-header [translucent]="true">
+
+  <!-- caso queira mudar ir em 'variable.scss' -->
+
+  <ion-toolbar color="dark" mode="ios">
+    <ion-title color="warning">
+      {{titulo}}
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-label>Olá Mundo!</ion-label>
+  <h2>Componente</h2>
+  <ion-button routerLink="/botoes">Botões</ion-button>
+  <ion-button routerLink="/alerta" color="danger">Alerta</ion-button>
+
+  <hr>
+  <ion-label>Este tambem é um <button routerlink="/botoes">botão</button></ion-label>
+</ion-content>

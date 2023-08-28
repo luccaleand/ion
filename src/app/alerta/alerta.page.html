@@ -1,0 +1,22 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>alerta</ion-title>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-header>
+  <ion-toolbar color="dark" mode="ios">
+    <ion-title color="warning">alerta</ion-title>
+    <ion-buttons>
+      <ion-back-button>
+      </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-button color="danger" (click)="presentAlert()">Atenção</ion-button>
+
+  <ion-button color="dark" shape="round" (click)="presentAlert()">Alert_Input</ion-button>
+
+</ion-content>

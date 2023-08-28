@@ -1,0 +1,9 @@
+
+Todo componente precisa de um módulo, na declaração q a gente marca
+    modulos do Angular
+
+        Root = Principal
+        Shared = Compartilhado
+        Features = Serviço
+
+        
